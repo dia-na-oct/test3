@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.svg";
-import ong from '../assets/baraka.jpg';
 
 export default function ONGCard({ name, description, image }) {
 
