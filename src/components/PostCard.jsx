@@ -37,7 +37,7 @@ export  function DonationCard({location , urgency , title , total , raised , ima
         {/* Buttons */}
         <div className="mt-4 flex gap-2">
           <button
-            onClick={() => window.open("/paymentVolunteer", "_blank")} 
+            onClick={() => window.open("/paymentVolunteer")} 
             className="bg-green-800 text-white w-1/2 py-2 rounded-md text-sm font-medium transition duration-300 hover:bg-green-700 hover:scale-105">
             Donate now
           </button>
