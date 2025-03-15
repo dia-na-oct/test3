@@ -1,7 +1,7 @@
 import { Sidebar } from "flowbite-react";
 import { useLocation, useNavigate } from "react-router-dom";
 import React, { useState } from "react";
-import amana from '../../assets/AMANA.svg';
+import amana from '../assets/AMANA.svg';
 import { I3DCubeScan, EmptyWallet, MedalStar, Home2, LogoutCurve, ArrowDown2 } from "iconsax-react";
 
 export function SideBarONG() {
