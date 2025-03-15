@@ -1,6 +1,8 @@
 import { Sidebar } from "flowbite-react";
 import { useLocation, useNavigate } from "react-router-dom";
 import React, { useState } from "react";
+import amana from '../assets/AMANA.svg';
+
 import { I3DCubeScan, EmptyWallet, MedalStar, Home2, LogoutCurve, ArrowDown2 } from "iconsax-react";
 
 export function SideBar() {
@@ -23,7 +25,7 @@ export function SideBar() {
   return (
     <Sidebar className="h-screen px-3 w-[18.6%] bg-[#032B20] shadow-lg border-0 z-20 text-[#C1B49A]">
       <div className="flex flex-col items-center py-6 mb-6 mt-8">
-        <img src={logo} alt="Amanah" className="h-20" />
+        <img src={amana} alt="Amanah" className="h-20" />
       </div>
 
       <Sidebar.Items className="!border-none">
